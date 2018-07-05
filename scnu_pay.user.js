@@ -4,10 +4,10 @@
 // @namespace https://github.com/fengkx/
 // @match     http://pay.scnu.edu.cn/pay.html
 // @version 0.1
-// @description       为交水电费提供友好的界面，不用纠结输支付码了 暂时仅支持石牌
+// @description       换了系统已经没卵用了。。。为交水电费提供友好的界面，不用纠结输支付码了 
 // @description:en    Provide a friendly interface for paying water and electricity　for SCNU, no need to think of the payment code
-// @description:zh    为交水电费提供友好的界面，不用纠结输支付码了 暂时仅支持石牌
-// @description:zh-CN 为交水电费提供友好的界面，不用纠结输支付码了 暂时仅支持石牌
+// @description:zh    换了系统已经没卵用了。。。为交水电费提供友好的界面，不用纠结输支付码了 
+// @description:zh-CN 换了系统已经没卵用了。。。为交水电费提供友好的界面，不用纠结输支付码了 
 // @grant none
 //@run-at             document-end
 // ==/UserScript==
