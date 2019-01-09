@@ -14,6 +14,6 @@
 // ==/UserScript==
 
 var $input = document.getElementById('search_form_input_homepage') || document.getElementById('search_form_input') ;
-$input.addEventListener('input', function (e) {
+$input && $input.addEventListener('input', function (e) {
 	this.value = this.value.replace(/^！/, '!');
 })
