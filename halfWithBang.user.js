@@ -15,5 +15,12 @@
 
 var $input = document.getElementById('search_form_input_homepage') || document.getElementById('search_form_input') ;
 $input && $input.addEventListener('input', function (e) {
-	this.value = this.value.replace(/^！/, '!');
+    if($input.value.search(/^！/) === 0) {
+      var start = $input.selectionStart;
+      var end = $input.selectionEnd;
+      this.value = this.value.replace(/^！/, '!');
+      $input.selectionStart=start;
+      $input.selectionEnd=end;
+    }
+	
 })
